@@ -60,7 +60,7 @@ public class DB {
 		}
 	}
 	
-	public static void resultSetClone(ResultSet rs) {
+	public static void resultSetClose(ResultSet rs) {
 		if (rs != null) {
 			try {
 				rs.close();
